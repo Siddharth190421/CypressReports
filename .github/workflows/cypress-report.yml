@@ -8,7 +8,7 @@ jobs:
   cypress-test:
     name: Run on Chrome 105
     runs-on: ubuntu-latest
-    container: docker pull cypress/browsers:node18.6.0-chrome105-ff104
+    container: cypress/browsers:node18.6.0-chrome105-ff104
     
 
     strategy:
